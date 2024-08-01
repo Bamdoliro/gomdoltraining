@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let countdown = 6;
     const timerElement = document.querySelector('#time');
     const options = document.querySelectorAll('.option');
-    const nextPageUrl = './secondquiz.html'; 
+    const nextPageUrl = './secondQuiz.html'; 
 
     let score = parseInt(localStorage.getItem('score')) || 0;
 
